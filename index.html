@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title> Hello world ! </title>
+
+</head>
+
+<body>
+
+	<header>
+		<h1> This is my first application ! </h1>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/2Gv6CMvI-Lw" title="YouTube video player"
+			frameborder="0"
+			allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+			allowfullscreen></iframe>
+	</header>
+	<nav>
+		<a href="#about">About</a>
+		<a href="#service">Service</a>
+		<a href="#skills">Skills</a>
+		<a href="#contact">Contact</a>
+	</nav>
+
+	<main>
+		<div id="about">
+			<h1> souheil mansouri</h1>
+			<h2> future web developper</h2>
+			<img src="sou.jpg" alt="profile-img" />
+			<!--
+				***** HTML <img> alt Attribute****
+				- The required alt attribute specifies an alternate text for an image, 
+				if the image cannot be displayed.
+
+                - The alt attribute provides alternative information for an image 
+				if a user for some reason cannot view it 
+                (because of slow connection, an error in the src attribute,
+				or if the user uses a screen reader).
+			-->
+		</div>
+		<!--
+			***** <div> : l'élément de division du contenu****
+				-L'élément HTML <div> (ou division) est le conteneur générique du contenu du flux. 
+				Il n'a aucun effet sur le contenu ou la mise en page tant qu'il n'est pas mis en forme 
+				d'une manière quelconque à l'aide de CSS.
+
+				-Il est plutôt utilisé pour regrouper le contenu 
+				afin qu'il puisse être facilement stylé à l'aide des attributs class ou id
+		-->
+		<div id="service">
+			<h2> provide a buch of a responsive dynamic web sites using all the required <i><u>"web development
+						skills"</i></u>
+			</h2>
+		</div>
+		<div id="skills">
+			<h1 style="color:red">skills:</h1>
+			<!--
+			***** <ol> :The HTML <ol> element ****
+
+				 - represents an ordered list of items, 
+				 typically rendered as a numbered list but, 
+				 like the unordered list, it can be changed.
+
+				 Ordered list type values can be used to change the numbering scheme, and include the following:
+
+                1: Default numeric scheme
+                I: Upper-case Roman numerals
+                i: Lower-case Roman numerals
+                A: Upper-case alphabet
+                a: Lower-case alphabet
+			-->
+			<ul type="square">
+				<li>html</li>
+				<li>css</li>
+				<li>js /react</li>
+			</ul>
+		</div>
+	</main>
+	<footer id="contact">
+		<form>
+			<div>
+				<!--
+					***** <label>****
+						- L'élément HTML <label> représente une légende pour un objet d'une interface utilisateur. 
+							Il peut être associé à un contrôle en utilisant l'attribut for 
+							ou en plaçant l'élément du contrôle à l'intérieur de l'élément <label>. 
+							Un tel contrôle est appelé contrôle étiqueté par l'élément <label>.
+
+				-->
+				<label for="first-name">First Name :</label><br>
+				<input id="first-name" type="text" placeholder="type your name">
+			</div>
+			<div>
+				<label for="email">email :</label><br>
+				<input id="email" type="email" placeholder="type your email">
+			</div>
+			<div>
+				<label for="gender">gender :</label> <br>
+				M <input id="gender" type="radio"> F <input id="gender" type="radio">
+			</div>
+			<div>
+				<button type="submit">submit</button>
+			</div>
+		</form>
+	</footer>
+</body>
+
+</html>
+
+
+
+<!-- this is a comment -->
+<!--
+    <del>deleted</del>
+	<small> smaller text</small>
+	<p>My first paragraph</p>
+	<p>My second paragraph</p>
+	<h2 title="This is a subheading">Hello, World!</h2>
+	-->
